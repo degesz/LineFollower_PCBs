@@ -2341,7 +2341,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "0Ω-1210"
+		(property "Value" "0.02Ω-1210"
 			(at 146.05 52.07 0)
 			(effects
 				(font
@@ -2447,7 +2447,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1k"
 			(at 229.87 115.57 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "0Ω-1210"
+		(property "Value" "0.02Ω-1210"
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1k"
 			(at 227.33 50.8 0)
 			(effects
 				(font

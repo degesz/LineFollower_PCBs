@@ -3572,7 +3572,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22uF"
 			(at 80.01 180.34 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 172.72 0)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22uF"
 			(at 44.45 179.07 0)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.45 172.72 0)
 			(effects
 				(font
@@ -3840,7 +3840,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5k1"
 			(at 118.11 134.62 90)
 			(effects
 				(font
@@ -4104,7 +4104,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5k1"
 			(at 26.67 127 90)
 			(effects
 				(font
@@ -5051,7 +5051,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 49.53 180.34 0)
 			(effects
 				(font
@@ -5570,7 +5570,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 85.09 180.34 0)
 			(effects
 				(font

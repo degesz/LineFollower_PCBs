@@ -305,15 +305,16 @@
 				)
 			)
 		)
-		(symbol "Robot druh-easyedapro:Power-5V"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
-			(pin_names hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 0 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -321,15 +322,15 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 5.08 0)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Robot druh-easyedapro:"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -347,7 +348,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power-5V"
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -356,10 +357,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Power-5V_1_0"
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
-						(xy -2.54 3.81) (xy 2.54 3.81)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -371,7 +381,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -381,10 +391,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 1.27)
-					(name ""
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -394,7 +418,7 @@
 					(number "1"
 						(effects
 							(font
-								(size 0.0254 0.0254)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1188,6 +1212,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 48.26 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13d60f49-9ce8-48b5-8344-457b73d11cfa")
+		(property "Reference" "#PWR077"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 48.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c827aff-a981-4298-9471-b813be0e8316")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Robot druh-easyedapro:Ground-GND")
 		(at 43.18 81.28 0)
 		(unit 1)
@@ -1247,136 +1337,6 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 175.26 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26f0ae8b-b170-4c7f-bbd6-9ab77dc9c974")
-		(property "Reference" "#PWR075"
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d51ca36e-b991-4cbf-94fc-f8e88dd48dd9")
-		)
-		(instances
-			(project "LineFollower_V2"
-				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 99.06 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29a79309-0fee-4870-9b67-7a3448a06691")
-		(property "Reference" "#PWR069"
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baf26f19-0a8a-41ad-90f2-c924b7e58351")
-		)
-		(instances
-			(project "LineFollower_V2"
-				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1488,6 +1448,72 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
 					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 175.26 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48761d43-e199-4c07-b21f-5097506fb4ac")
+		(property "Reference" "#PWR067"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3ec7139-c905-4490-8cc7-5fe3d5685d27")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1781,16 +1807,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 200.66 76.2 0)
+		(lib_id "power:+5V")
+		(at 73.66 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6bf8011e-923b-4c0b-bc83-d0744330aade")
-		(property "Reference" "#PWR077"
-			(at 200.66 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "748a0a72-e900-4827-9a9f-e6d3a6b2123f")
+		(property "Reference" "#PWR075"
+			(at 73.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,16 +1825,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 200.66 71.12 0)
+		(property "Value" "+5V"
+			(at 73.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 200.66 76.2 0)
+		(property "Footprint" ""
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,73 +1851,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 200.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ca5355c-6920-423c-8b7f-f89e528aaf62")
-		)
-		(instances
-			(project "LineFollower_V2"
-				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 226.06 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "708b4416-b580-4336-ae28-1ec4a5046001")
-		(property "Reference" "#PWR079"
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 226.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 226.06 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,12 +1861,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a044137-6de3-403d-bf56-e1c84f6248bf")
+			(uuid "bfe0a3c0-4a26-4e89-a707-0ad383092b32")
 		)
 		(instances
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR079")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -1970,6 +1932,72 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8054bd24-5d15-47d6-8b26-0bb943e68b19")
+		(property "Reference" "#PWR069"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4aa1ddf-5d1c-48d3-af1c-2a4c3a1e98e4")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2263,71 +2291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 22.86 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91df65ec-3d18-4fda-bd13-71b7eea03cf3")
-		(property "Reference" "#PWR063"
-			(at 22.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 22.86 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 22.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 22.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a53fe5a-a9e5-4d1b-b681-837816b71d96")
-		)
-		(instances
-			(project "LineFollower_V2"
-				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Robot druh-easyedapro:5050")
 		(at 261.62 78.74 0)
 		(unit 1)
@@ -2433,6 +2396,72 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
 					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ce25682-6ad4-4cbd-9a41-5701ebbed64b")
+		(property "Reference" "#PWR079"
+			(at 22.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e998bdd-d06f-4c6c-bef8-374d6cc6669d")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2680,16 +2709,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 124.46 76.2 0)
+		(lib_id "power:+5V")
+		(at 251.46 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba2aaa90-dfbe-44c1-84dc-c26afdff070a")
-		(property "Reference" "#PWR071"
-			(at 124.46 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "b4a6f343-4315-4503-8db5-eb5e3d84b7d0")
+		(property "Reference" "#PWR096"
+			(at 251.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,16 +2727,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 124.46 71.12 0)
+		(property "Value" "+5V"
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 124.46 76.2 0)
+		(property "Footprint" ""
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 76.2 0)
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,8 +2753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 124.46 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,12 +2763,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f274898-b068-447a-a02f-f1b068a5e9d6")
+			(uuid "8ddb1524-ab7d-4637-a430-4d0b3269be1e")
 		)
 		(instances
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR071")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2856,16 +2886,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 73.66 76.2 0)
+		(lib_id "power:+5V")
+		(at 124.46 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0406542-7f78-454e-9522-dc59687c3715")
-		(property "Reference" "#PWR067"
-			(at 73.66 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "d6586c1e-d52f-4d3c-ae9d-52c2f92658ba")
+		(property "Reference" "#PWR071"
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,16 +2904,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 73.66 71.12 0)
+		(property "Value" "+5V"
+			(at 124.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 73.66 76.2 0)
+		(property "Footprint" ""
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 76.2 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,8 +2930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 73.66 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,28 +2940,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "871f68a1-21bb-4895-8b2a-b37278cafc9e")
+			(uuid "abce91a0-5cc5-447f-96ab-b9b923909237")
 		)
 		(instances
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 251.46 76.2 0)
+		(lib_id "power:+5V")
+		(at 99.06 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6e1fa1b-5e67-4864-9145-6513f8861eb9")
-		(property "Reference" "#PWR081"
-			(at 251.46 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "e0a37295-02aa-4ecb-9a4a-60bf9f8b343a")
+		(property "Reference" "#PWR073"
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,16 +2970,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 251.46 71.12 0)
+		(property "Value" "+5V"
+			(at 99.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 251.46 76.2 0)
+		(property "Footprint" ""
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 76.2 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,73 +2996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 251.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d3d5da8-5731-49de-81b0-5c8834766eb9")
-		)
-		(instances
-			(project "LineFollower_V2"
-				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 48.26 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce93c9f9-15f7-4b68-84d0-a7fe2b26147d")
-		(property "Reference" "#PWR065"
-			(at 48.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 48.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 48.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 48.26 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,12 +3006,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7352a8fd-19f8-4e92-9265-ce173e4ffa2f")
+			(uuid "ac443723-e353-4c89-912b-9063718a0733")
 		)
 		(instances
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR065")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3181,16 +3148,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Power-5V")
-		(at 149.86 76.2 0)
+		(lib_id "power:+5V")
+		(at 226.06 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f042ed7a-1749-4318-997a-58fc97919e0b")
-		(property "Reference" "#PWR073"
-			(at 149.86 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "ee370ace-03be-4eab-9a6c-92ee1b2e12f8")
+		(property "Reference" "#PWR063"
+			(at 226.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,16 +3166,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 149.86 71.12 0)
+		(property "Value" "+5V"
+			(at 226.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 149.86 76.2 0)
+		(property "Footprint" ""
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,8 +3192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 149.86 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,12 +3202,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "eed9b732-59f4-4cd0-a404-7e80c1cd04d0")
+			(uuid "b1e0c27c-8f76-48c2-b2b9-ac48d69d32f4")
 		)
 		(instances
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
-					(reference "#PWR073")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 200.66 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef29153a-400d-41b2-9825-9189193cfc36")
+		(property "Reference" "#PWR065"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0547ce77-c165-45ea-be54-2bf5dd5843a9")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/9e2c9acb-58c5-4f2d-bb43-b71d41a26d17"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

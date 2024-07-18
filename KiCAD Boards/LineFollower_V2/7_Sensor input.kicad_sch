@@ -5,6 +5,102 @@
 	(uuid "2ec500f7-8a38-4c04-b17f-e42e110c4a4f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Power-VCC_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Robot druh-easyedapro:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Robot druh-easyedapro:74HC165BQ,115"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3405,6 +3501,72 @@
 		)
 	)
 	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 182.88 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61b6c21c-5097-49f2-8ccb-dc6d76bc5c9c")
+		(property "Reference" "#PWR098"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 182.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ee1236-e8ed-48ea-bb77-97a7911ebe39")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Robot druh-easyedapro:Ground-GND")
 		(at 59.69 78.74 0)
 		(unit 1)
@@ -3464,6 +3626,72 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 63.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ea978c4-97c7-43b2-9f10-5ad35468937a")
+		(property "Reference" "#PWR081"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14193116-94e0-4053-84bc-98e71c8c3651")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3987,6 +4215,138 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 97.79 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf67a843-0eba-419d-8423-701b6c5c79e6")
+		(property "Reference" "#PWR099"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "140d0a7c-c32f-4a79-b912-ecffa49765db")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 124.46 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cff24ca0-ff5d-4797-8fe1-daeb0d992eee")
+		(property "Reference" "#PWR097"
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 124.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad04d48b-e90a-4369-8a4a-77d5c518578a")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
