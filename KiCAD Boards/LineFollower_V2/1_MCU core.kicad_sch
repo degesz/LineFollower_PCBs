@@ -2312,6 +2312,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 44.45) (xy 101.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640f40f8-9856-4599-be9e-310d408d574c")
+	)
+	(wire
+		(pts
 			(xy 109.22 109.22) (xy 109.22 110.49)
 		)
 		(stroke
@@ -2782,16 +2792,16 @@
 	)
 	(global_label "RGB_DATA"
 		(shape output)
-		(at 143.51 39.37 0)
+		(at 96.52 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7b46f2e6-cc07-4b27-aaab-8a8771fb2990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 39.37 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
