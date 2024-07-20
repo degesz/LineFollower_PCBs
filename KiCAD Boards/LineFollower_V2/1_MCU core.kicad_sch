@@ -2222,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 44.45) (xy 124.46 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237ab5b1-7b24-458d-a835-2ddf1addfa7d")
+	)
+	(wire
+		(pts
 			(xy 256.54 151.13) (xy 257.81 151.13)
 		)
 		(stroke
@@ -2279,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "36ba2260-1d2e-49e7-a59b-23bb8a767aa9")
+	)
+	(wire
+		(pts
+			(xy 99.06 77.47) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503da7d8-32cb-49f9-b863-c784778a7c4d")
 	)
 	(wire
 		(pts
@@ -2349,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "7113dda3-adfe-4dd5-9a0f-4689e5ad1e0d")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754a2f86-5611-44dd-9dae-8d21d6b400a2")
 	)
 	(wire
 		(pts
@@ -2529,6 +2559,16 @@
 			(type default)
 		)
 		(uuid "da580ef6-212f-4127-9f31-2dd8b5fdb8a5")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 124.46 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd011dc8-b06b-47cb-8102-af11c030403a")
 	)
 	(wire
 		(pts
@@ -2750,6 +2790,26 @@
 			)
 		)
 	)
+	(global_label "LOAD_Shift"
+		(shape input)
+		(at 101.6 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e628b09-8022-4675-a263-fe931377043f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_RST"
 		(shape input)
 		(at 257.81 151.13 0)
@@ -2770,18 +2830,18 @@
 			)
 		)
 	)
-	(global_label "I2C_RST"
-		(shape input)
-		(at 184.15 53.34 0)
+	(global_label "USB_D-"
+		(shape output)
+		(at 125.73 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "60e925f1-3f97-490f-a7ed-2d3e9743ca88")
+		(uuid "6b59c326-cc6a-4137-9c04-eebb0e0ee7a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 53.34 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,6 +2866,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Shift_DATA"
+		(shape input)
+		(at 124.46 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b5cc27d-0358-4a76-8981-8fbe60b9f3f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.2423 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2842,6 +2924,26 @@
 		(uuid "c0069ea0-fcf3-46d5-896b-d9f95aff3d28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape output)
+		(at 125.73 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c43517ca-2651-4ac9-b92a-1551bb917be1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,6 +3052,26 @@
 			)
 		)
 	)
+	(global_label "I2C_RST"
+		(shape input)
+		(at 124.46 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9dd028f-1407-4a4a-b150-da383a5ae4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_VBUS"
 		(shape output)
 		(at 57.15 129.54 180)
@@ -3002,6 +3124,26 @@
 		(uuid "f2bd1c30-7de3-47e7-a94c-b94f5deebdc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_Shift"
+		(shape input)
+		(at 101.6 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f53c66ec-7a2e-4b70-a2c8-f89bddf2f8da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,6 +3571,71 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/444a6e75-a2b2-4736-b83b-a01220cf2ff7"
 					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 99.06 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d1e4ac-19d4-4da1-b994-720857e732fb")
+		(property "Reference" "#PWR0106"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf7f45c2-417e-4cd0-9f4a-5c430ce27eaa")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/444a6e75-a2b2-4736-b83b-a01220cf2ff7"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4524,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 148.59 80.01 90)
 			(effects
 				(font
@@ -5195,7 +5402,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 138.43 80.01 90)
 			(effects
 				(font

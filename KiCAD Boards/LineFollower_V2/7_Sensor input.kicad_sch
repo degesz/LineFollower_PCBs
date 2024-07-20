@@ -524,6 +524,141 @@
 				)
 			)
 		)
+		(symbol "Robot druh-easyedapro:CAP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Robot druh-easyedapro:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Robot druh-easyedapro:Ground-GND"
 			(power)
 			(pin_numbers hide)
@@ -1518,9 +1653,721 @@
 			)
 		)
 	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ecd9572-63db-4e09-bdfc-ae86d2060d15")
+	)
+	(junction
+		(at 171.45 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c442761-2ebe-4fc4-a1db-aa23bf7e86b7")
+	)
+	(junction
+		(at 57.15 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d7c4e51-9799-4555-9219-00dd1837c3b6")
+	)
+	(junction
+		(at 128.27 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a40254-4ab8-4b19-8e63-fa8cad3ad855")
+	)
+	(junction
+		(at 133.35 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ebab26c-6474-4692-8268-9c5d060c1844")
+	)
+	(junction
+		(at 167.64 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c96053-c169-45cf-b1ec-b20acbc12938")
+	)
+	(junction
+		(at 64.77 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b5ce0f-eed4-4da5-99c3-c309cc89a117")
+	)
+	(junction
+		(at 97.79 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb79aae-3dde-4748-8553-93ba492258ec")
+	)
+	(junction
+		(at 100.33 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988dab64-9be8-4658-9510-2b651d877765")
+	)
+	(junction
+		(at 62.23 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0ba9726-865b-4402-9e1a-5c378b0a6744")
+	)
+	(junction
+		(at 135.89 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9978f14-8d81-46a7-896c-53372c30e821")
+	)
+	(junction
+		(at 163.83 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0584031-57fa-4b7c-bb8f-f62b34ab5687")
+	)
+	(no_connect
+		(at 81.28 72.39)
+		(uuid "ae3fa38c-7c45-4433-a022-bc664f6f0be9")
+	)
+	(no_connect
+		(at 116.84 72.39)
+		(uuid "c5323c91-d19a-43c7-b09b-d891a87b1799")
+	)
+	(no_connect
+		(at 45.72 72.39)
+		(uuid "cba9e35c-bd47-4b58-be70-11227ca43d5d")
+	)
+	(no_connect
+		(at 152.4 72.39)
+		(uuid "ec9a47e5-54da-4f77-91bc-2a5b4613fa1a")
+	)
+	(no_connect
+		(at 170.18 72.39)
+		(uuid "fe0af431-f193-49e0-bb4e-4cdcdd1fa508")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 125.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b177c6-a8aa-4140-8a7a-ba4167386a23")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f153b1-e3d9-4fb6-a907-d78e63800372")
+	)
+	(wire
+		(pts
+			(xy 57.15 35.56) (xy 57.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07111e44-8d0e-4139-8d52-f3fd5c6f69c5")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 140.97 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0947ac89-2c50-4446-bbd0-99123ac97a48")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 91.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c731a3-6979-4e9e-a278-d29c1e244559")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241758c2-f832-4498-bcc3-7f12a98450a5")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306e31b8-cd17-4e77-a9a3-f55768062603")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b917a3-2b4b-41fc-885d-7942e1e121d0")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 64.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362ec093-c863-4bd5-baff-9c357338e0d3")
+	)
+	(wire
+		(pts
+			(xy 52.07 45.72) (xy 52.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9da0bd-69f5-41c1-920f-a95e43e3f540")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f46e844-c34e-48fa-bcfd-d92e669afb7a")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c0bc2b-9722-499c-b247-58c4242a2686")
+	)
+	(wire
+		(pts
+			(xy 176.53 49.53) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41588b0b-d7c8-4abd-9273-9bb5475be972")
+	)
+	(wire
+		(pts
+			(xy 128.27 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d29ded-5882-4c64-b924-9eb847be637a")
+	)
+	(wire
+		(pts
+			(xy 69.85 49.53) (xy 69.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49799aed-306b-49e5-97b6-ecb02a7c7943")
+	)
+	(wire
+		(pts
+			(xy 133.35 48.26) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abd9e30-a371-4e4c-b832-f87d76215fdf")
+	)
+	(wire
+		(pts
+			(xy 125.73 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b493c84-2aca-4c6a-a53f-0fa65ccf3fd7")
+	)
+	(wire
+		(pts
+			(xy 135.89 59.69) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da8bcb1-8361-4e23-9446-6e9581ae08c9")
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dff11fb-515a-4839-abf5-ac4dcf819090")
+	)
+	(wire
+		(pts
+			(xy 162.56 82.55) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e28bc0a-4514-4277-b24e-07c71a65abbd")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 55.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547710b2-256b-465d-aee3-64f17b3374e7")
+	)
+	(wire
+		(pts
+			(xy 123.19 45.72) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb02dc1-647b-4f05-ab93-dc1bf2645350")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbae9da-0f2e-4eb3-b2e6-64b5b306c6a5")
+	)
+	(wire
+		(pts
+			(xy 135.89 48.26) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3155bf-5000-43e9-ae02-bc812712d53b")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d406ce9-6ba7-4b1e-a90d-0c2eaa1caf94")
+	)
+	(wire
+		(pts
+			(xy 163.83 35.56) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa97976-323d-444b-a281-4b1f3108bcf2")
+	)
+	(wire
+		(pts
+			(xy 64.77 59.69) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6005e7e9-069c-4c47-b406-dad355263620")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a11726-e082-4b95-98f2-7b946b140533")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658feb58-a1de-4741-a402-d849b51262f2")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665e856c-f982-4828-9a63-96122f9a4c8b")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 97.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae3c792-b682-45fc-8364-0c93b3dd1e49")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bc40b3-71bb-462f-958c-c91896cfc29b")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788c8e53-e521-45f3-a1ca-90a997b2990f")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 63.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799fec39-99f6-422f-880e-44838214e570")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844d9c25-8abf-4a42-ab16-21459e1aeb3e")
+	)
+	(wire
+		(pts
+			(xy 91.44 92.71) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3bd978-49b6-4c14-be57-d756f5651ec9")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9681ab9a-41c6-495a-b7c7-c2b8abed7d4b")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9babf05e-76e3-4d40-bf36-49547923525b")
+	)
+	(wire
+		(pts
+			(xy 92.71 35.56) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7cce8e-be27-4506-be83-ea7d24c65f2d")
+	)
+	(wire
+		(pts
+			(xy 128.27 49.53) (xy 128.27 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e59b561-79d1-445f-83c5-a6e440191991")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 158.75 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f90b3e2-b6fe-49dd-b771-81f9668483f8")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 167.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12009d8-1f8f-4b91-b9c0-a128d3cbdccf")
+	)
+	(wire
+		(pts
+			(xy 176.53 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72cbbcd-8842-4d4f-853d-57c8b0d10c48")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 105.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb4c925-d95d-47f0-ad36-02a027c09681")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae63176a-b0e1-46e4-bb16-612503413662")
+	)
+	(wire
+		(pts
+			(xy 119.38 45.72) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36e0681-be06-4c01-bb00-a584e85ce181")
+	)
+	(wire
+		(pts
+			(xy 54.61 49.53) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53f8a59-46c4-4878-82a3-5a668fad4aa2")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 62.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b897417a-0be9-4206-8e55-dfb348b67801")
+	)
+	(wire
+		(pts
+			(xy 161.29 49.53) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4551947-bbfc-4f99-8da8-fc5e57e5fba5")
+	)
+	(wire
+		(pts
+			(xy 140.97 48.26) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52af7e6-b94f-4c91-9748-7cca080584dd")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca59335f-68bc-46ff-90ba-17ddf6d6dbe6")
+	)
+	(wire
+		(pts
+			(xy 158.75 45.72) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa97116-695c-46e8-89c1-46414a71bceb")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cd2499-0acd-4830-add7-39aeb02db65f")
+	)
+	(wire
+		(pts
+			(xy 100.33 59.69) (xy 99.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d703b94f-5b13-41e5-9ca2-fb05a6f92be0")
+	)
+	(wire
+		(pts
+			(xy 90.17 48.26) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da60aeab-4a67-4dba-b1a1-bb86eaa17f28")
+	)
+	(wire
+		(pts
+			(xy 128.27 38.1) (xy 128.27 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd014bed-03a1-4c85-a54c-b86b5a6bee59")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c19bb5-584d-4dbc-a891-6e2c8074f4fa")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e623aeda-ace4-4c55-849e-037964ff00b7")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 134.62 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6372526-2b15-4c70-8311-44a7892eeb12")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f679a498-4e3e-4335-a284-703d8d337dff")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e231db-ad04-430a-9fe4-90cfa59801a3")
+	)
+	(wire
+		(pts
+			(xy 105.41 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed1b7a9-6bc6-4db3-b3c6-1f3fd813b164")
+	)
 	(global_label "DIR22"
 		(shape input)
-		(at 52.07 60.96 180)
+		(at 81.28 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1529,7 +2376,7 @@
 		)
 		(uuid "00558717-1e40-476c-bfc5-50fca0fdb814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 60.96 0)
+			(at 81.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +2385,7 @@
 			)
 		)
 	)
-	(global_label "DIR20"
+	(global_label "DIR28"
 		(shape input)
 		(at 246.38 132.08 180)
 		(effects
@@ -1560,7 +2407,7 @@
 	)
 	(global_label "DIR5"
 		(shape input)
-		(at 171.45 57.15 180)
+		(at 152.4 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1569,7 +2416,7 @@
 		)
 		(uuid "0467406c-0235-4e86-b471-85b97495bd1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 57.15 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +2425,27 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "CLK_Shift"
+		(shape input)
+		(at 116.84 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d173ae4-d1da-4311-ac18-b529d9955975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
 		(shape input)
 		(at 246.38 50.8 180)
 		(effects
@@ -1600,7 +2467,7 @@
 	)
 	(global_label "DIR2"
 		(shape input)
-		(at 189.23 62.23 0)
+		(at 170.18 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1609,7 +2476,7 @@
 		)
 		(uuid "11caffb0-716b-46b1-a39e-61d3b268f183")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 62.23 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +2485,7 @@
 			)
 		)
 	)
-	(global_label "DIR18"
+	(global_label "DIR26"
 		(shape input)
 		(at 246.38 127 180)
 		(effects
@@ -1638,7 +2505,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 246.38 53.34 180)
 		(effects
@@ -1658,7 +2525,7 @@
 			)
 		)
 	)
-	(global_label "DIR23"
+	(global_label "DIR31"
 		(shape input)
 		(at 246.38 139.7 180)
 		(effects
@@ -1720,7 +2587,7 @@
 	)
 	(global_label "DIR10"
 		(shape input)
-		(at 130.81 64.77 0)
+		(at 134.62 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +2596,7 @@
 		)
 		(uuid "1d4f1e7c-d329-453c-908f-bf09534dece1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 64.77 0)
+			(at 134.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +2605,7 @@
 			)
 		)
 	)
-	(global_label "DIR21"
+	(global_label "DIR29"
 		(shape input)
 		(at 246.38 134.62 180)
 		(effects
@@ -1780,7 +2647,7 @@
 	)
 	(global_label "DIR4"
 		(shape input)
-		(at 189.23 57.15 0)
+		(at 170.18 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1789,7 +2656,27 @@
 		)
 		(uuid "28e9a7de-8a92-48b4-8d4a-cadce2ab06b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 57.15 0)
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR28"
+		(shape input)
+		(at 63.5 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2928280a-4768-443c-bf45-28b038a625cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,9 +2705,49 @@
 			)
 		)
 	)
+	(global_label "LOAD_Shift"
+		(shape input)
+		(at 83.82 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ec71e7e-e222-437a-a35c-f690edbaadfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_Shift"
+		(shape input)
+		(at 45.72 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37bc14cc-28cc-4541-ae7a-1b8064836b0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIR13"
 		(shape input)
-		(at 113.03 59.69 180)
+		(at 116.84 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1829,7 +2756,7 @@
 		)
 		(uuid "3857bd49-c55a-4141-a71e-c6fc63526e41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 59.69 0)
+			(at 116.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +2767,7 @@
 	)
 	(global_label "DIR6"
 		(shape input)
-		(at 171.45 59.69 180)
+		(at 152.4 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1849,7 +2776,7 @@
 		)
 		(uuid "403b2899-857a-4b55-8f3c-dbef03ad38e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 59.69 0)
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +2807,7 @@
 	)
 	(global_label "DIR3"
 		(shape input)
-		(at 189.23 59.69 0)
+		(at 170.18 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1889,7 +2816,7 @@
 		)
 		(uuid "44039a3b-d097-4efd-a175-1f864dfbf4df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 59.69 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2867,7 @@
 	)
 	(global_label "DIR20"
 		(shape input)
-		(at 69.85 58.42 0)
+		(at 99.06 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1949,7 +2876,7 @@
 		)
 		(uuid "526e6cbd-93d7-4579-bb02-704d983a88a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 58.42 0)
+			(at 99.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +2907,7 @@
 	)
 	(global_label "DIR12"
 		(shape input)
-		(at 130.81 59.69 0)
+		(at 134.62 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1989,7 +2916,7 @@
 		)
 		(uuid "595aac5b-5118-49ef-a608-293b671381cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 59.69 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,9 +2945,9 @@
 			)
 		)
 	)
-	(global_label "DIR14"
+	(global_label "DIR15"
 		(shape input)
-		(at 113.03 64.77 180)
+		(at 116.84 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2029,7 +2956,7 @@
 		)
 		(uuid "5a9cdfb6-0e65-465b-9ddc-57686c2f5397")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 64.77 0)
+			(at 116.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,18 +2985,38 @@
 			)
 		)
 	)
-	(global_label "DIR17"
+	(global_label "DIR32"
 		(shape input)
-		(at 104.14 124.46 0)
+		(at 45.72 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "62726943-6bf5-49f2-b2d3-36678ce40aac")
+		(uuid "5b281b89-7150-49b4-b720-1b5519a6a5c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 124.46 0)
+			(at 45.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOAD_Shift"
+		(shape input)
+		(at 48.26 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e1761dc-8def-4fa2-9c75-16ecf8348338")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,26 +3057,6 @@
 		(uuid "64d15a78-3ef0-4e37-8a8b-d9858202017e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR18"
-		(shape input)
-		(at 104.14 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6aedbf77-9e62-4e1b-a642-14e0133e9b6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +3107,7 @@
 	)
 	(global_label "DIR16"
 		(shape input)
-		(at 113.03 67.31 180)
+		(at 116.84 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +3116,7 @@
 		)
 		(uuid "74d07d16-1f69-4638-b165-e453b8287462")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 67.31 0)
+			(at 116.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +3145,7 @@
 			)
 		)
 	)
-	(global_label "DIR17"
+	(global_label "DIR25"
 		(shape input)
 		(at 246.38 124.46 180)
 		(effects
@@ -2240,7 +3167,7 @@
 	)
 	(global_label "DIR18"
 		(shape input)
-		(at 69.85 63.5 0)
+		(at 99.06 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,7 +3176,27 @@
 		)
 		(uuid "7e5e7067-69dd-41aa-81c0-4280e12def2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 63.5 0)
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_Shift"
+		(shape input)
+		(at 81.28 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eee4614-038b-4b5d-948c-29d202dc2a26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +3207,7 @@
 	)
 	(global_label "DIR1"
 		(shape input)
-		(at 189.23 64.77 0)
+		(at 170.18 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2269,7 +3216,7 @@
 		)
 		(uuid "8107d986-ff34-4b89-96c2-de32e9780830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 64.77 0)
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +3227,7 @@
 	)
 	(global_label "DIR14"
 		(shape input)
-		(at 113.03 62.23 180)
+		(at 116.84 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2289,7 +3236,7 @@
 		)
 		(uuid "820011cf-9a6a-43af-b41d-3e13cd19e940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 62.23 0)
+			(at 116.84 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +3247,7 @@
 	)
 	(global_label "DIR21"
 		(shape input)
-		(at 52.07 58.42 180)
+		(at 81.28 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2309,7 +3256,7 @@
 		)
 		(uuid "837f03f2-90a5-46bc-a2da-83cef50a016c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 58.42 0)
+			(at 81.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,18 +3265,18 @@
 			)
 		)
 	)
-	(global_label "DIR20"
+	(global_label "DIR31"
 		(shape input)
-		(at 104.14 116.84 0)
+		(at 45.72 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "88a59da4-b6b8-4e80-b676-7a8509bfab74")
+		(uuid "8a0d0ea3-fea8-40cc-b1bb-580808cb4031")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 116.84 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,29 +3305,9 @@
 			)
 		)
 	)
-	(global_label "DIR24"
-		(shape input)
-		(at 86.3346 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91443276-68fa-43e0-af52-d86aed665dc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3346 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIR19"
 		(shape input)
-		(at 69.85 60.96 0)
+		(at 99.06 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2389,7 +3316,7 @@
 		)
 		(uuid "96d0bf5f-61fd-444b-a423-12c8b963eedb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 60.96 0)
+			(at 99.06 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +3345,7 @@
 			)
 		)
 	)
-	(global_label "DIR24"
+	(global_label "DIR32"
 		(shape input)
 		(at 246.38 142.24 180)
 		(effects
@@ -2498,29 +3425,9 @@
 			)
 		)
 	)
-	(global_label "DIR21"
-		(shape input)
-		(at 86.36 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b25b095b-58ed-4f66-b4a7-7e7fd8df19c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIR7"
 		(shape input)
-		(at 171.45 62.23 180)
+		(at 152.4 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2529,27 +3436,7 @@
 		)
 		(uuid "b5629ed1-ac40-4c7b-b60e-02a0b7bb63bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR23"
-		(shape input)
-		(at 86.36 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb53ecfe-6847-4071-87bf-0cafc407911b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 121.92 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,9 +3465,29 @@
 			)
 		)
 	)
+	(global_label "LOAD_Shift"
+		(shape input)
+		(at 154.94 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c40ba8c2-c317-41c5-be6b-d262c0a5162e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIR11"
 		(shape input)
-		(at 130.81 62.23 0)
+		(at 134.62 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2589,7 +3496,27 @@
 		)
 		(uuid "c4830a65-97d3-40cf-9024-d0c3d86f2b48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 62.23 0)
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR26"
+		(shape input)
+		(at 63.5 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c69470fb-33cc-4830-b0c9-1888abb96b04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +3567,7 @@
 	)
 	(global_label "DIR8"
 		(shape input)
-		(at 171.45 64.77 180)
+		(at 152.4 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,7 +3576,27 @@
 		)
 		(uuid "cbe7dc02-4c70-4ac4-a9a0-f930999ec4e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 64.77 0)
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOAD_Shift"
+		(shape input)
+		(at 119.38 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd094f05-0cd6-44e8-b963-52c348dbe007")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +3647,7 @@
 	)
 	(global_label "DIR23"
 		(shape input)
-		(at 52.07 63.5 180)
+		(at 81.28 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2709,7 +3656,7 @@
 		)
 		(uuid "d01ea156-19f1-4921-9b1c-fa0e5c6418d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 63.5 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,18 +3665,18 @@
 			)
 		)
 	)
-	(global_label "DIR19"
+	(global_label "DIR27"
 		(shape input)
-		(at 104.14 119.38 0)
+		(at 63.5 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d090970b-24b1-4471-a851-15437849b27e")
+		(uuid "d340f392-b219-4f18-a351-31e00a0cf4b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 119.38 0)
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,22 +3685,24 @@
 			)
 		)
 	)
-	(global_label "DIR22"
+	(global_label "Shift_DATA"
 		(shape input)
-		(at 86.36 119.38 180)
+		(at 50.8 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "dc44d2b6-6e20-4a00-a6f4-4c378e90b5ca")
+		(uuid "d3f164e9-bb32-42f9-bba5-bf87e4d96214")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 119.38 0)
+			(at 38.0177 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2818,7 +3767,27 @@
 			)
 		)
 	)
-	(global_label "DIR22"
+	(global_label "DIR25"
+		(shape input)
+		(at 63.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec04844b-7b71-4484-bcda-fbc7351f9acd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR30"
 		(shape input)
 		(at 246.38 137.16 180)
 		(effects
@@ -2840,7 +3809,7 @@
 	)
 	(global_label "DIR9"
 		(shape input)
-		(at 130.81 67.31 0)
+		(at 134.62 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,7 +3818,47 @@
 		)
 		(uuid "eebaeba2-7f4c-42bf-b25a-7293fc454845")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 67.31 0)
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR30"
+		(shape input)
+		(at 45.72 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef8c99d8-8551-4568-9090-b9c3f11f4f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_Shift"
+		(shape input)
+		(at 152.4 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0410ded-38b7-4602-ae28-de64379a7aec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,18 +3887,18 @@
 			)
 		)
 	)
-	(global_label "DIR24"
+	(global_label "DIR29"
 		(shape input)
-		(at 52.07 66.04 180)
+		(at 45.72 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f6af4321-2d3e-4c7a-9d40-aad2d02ee527")
+		(uuid "f4d2444a-0379-43bd-ae86-39dfc7c9ffc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 66.04 0)
+			(at 45.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +3907,27 @@
 			)
 		)
 	)
-	(global_label "DIR19"
+	(global_label "DIR24"
+		(shape input)
+		(at 81.28 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6af4321-2d3e-4c7a-9d40-aad2d02ee527")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR27"
 		(shape input)
 		(at 246.38 129.54 180)
 		(effects
@@ -2940,7 +3969,7 @@
 	)
 	(global_label "DIR17"
 		(shape input)
-		(at 69.85 66.04 0)
+		(at 99.06 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2949,7 +3978,7 @@
 		)
 		(uuid "fd8de7af-05e9-4654-99fb-89c72ec9201d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 66.04 0)
+			(at 99.06 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3989,7 @@
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:74HC165BQ,115")
-		(at 121.92 63.5 0)
+		(at 125.73 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2968,7 +3997,7 @@
 		(dnp no)
 		(uuid "19a9dd32-9de8-4354-bfcd-7c21b087785a")
 		(property "Reference" "IC7"
-			(at 115.57 46.99 0)
+			(at 119.38 49.53 0)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -2977,7 +4006,7 @@
 			)
 		)
 		(property "Value" "74HC165BQ,115"
-			(at 115.57 82.55 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +4015,7 @@
 			)
 		)
 		(property "Footprint" "easyEDA_footprints:DHVQFN-16_L3.5-W2.5-P0.50-BL-EP"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +4024,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191114/C456131_4958C2CF9552F2ACF56B5EE2B7A2605A.pdf"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +4033,7 @@
 			)
 		)
 		(property "Description" "Function: Output Type: Series:"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +4042,7 @@
 			)
 		)
 		(property "Manufacturer Part" "74HC165BQ,115"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +4051,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia(安世)"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +4060,7 @@
 			)
 		)
 		(property "Supplier Part" "C426699"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +4069,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +4078,7 @@
 			)
 		)
 		(property "LCSC Part Name" "74HC165BQ,115"
-			(at 121.92 63.5 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +4148,7 @@
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:74HC165BQ,115")
-		(at 60.96 62.23 0)
+		(at 90.17 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3127,7 +4156,7 @@
 		(dnp no)
 		(uuid "5567906d-20c3-4ada-aa44-45b249281d78")
 		(property "Reference" "IC5"
-			(at 54.61 45.72 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -3136,7 +4165,7 @@
 			)
 		)
 		(property "Value" "74HC165BQ,115"
-			(at 54.61 81.28 0)
+			(at 83.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +4174,7 @@
 			)
 		)
 		(property "Footprint" "easyEDA_footprints:DHVQFN-16_L3.5-W2.5-P0.50-BL-EP"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +4183,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191114/C456131_4958C2CF9552F2ACF56B5EE2B7A2605A.pdf"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +4192,7 @@
 			)
 		)
 		(property "Description" "Function: Output Type: Series:"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +4201,7 @@
 			)
 		)
 		(property "Manufacturer Part" "74HC165BQ,115"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +4210,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia(安世)"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +4219,7 @@
 			)
 		)
 		(property "Supplier Part" "C426699"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +4228,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +4237,7 @@
 			)
 		)
 		(property "LCSC Part Name" "74HC165BQ,115"
-			(at 60.96 62.23 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +4307,7 @@
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:74HC165BQ,115")
-		(at 180.34 60.96 0)
+		(at 161.29 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3286,7 +4315,7 @@
 		(dnp no)
 		(uuid "58441022-25af-4018-a681-0bd102edaacc")
 		(property "Reference" "IC8"
-			(at 173.99 44.45 0)
+			(at 154.94 49.53 0)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -3295,7 +4324,7 @@
 			)
 		)
 		(property "Value" "74HC165BQ,115"
-			(at 173.99 80.01 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +4333,7 @@
 			)
 		)
 		(property "Footprint" "easyEDA_footprints:DHVQFN-16_L3.5-W2.5-P0.50-BL-EP"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +4342,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191114/C456131_4958C2CF9552F2ACF56B5EE2B7A2605A.pdf"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +4351,7 @@
 			)
 		)
 		(property "Description" "Function: Output Type: Series:"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +4360,7 @@
 			)
 		)
 		(property "Manufacturer Part" "74HC165BQ,115"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +4369,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia(安世)"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +4378,7 @@
 			)
 		)
 		(property "Supplier Part" "C426699"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +4387,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +4396,7 @@
 			)
 		)
 		(property "LCSC Part Name" "74HC165BQ,115"
-			(at 180.34 60.96 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,33 +4465,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Ground-GND")
-		(at 93.98 137.16 0)
+		(lib_id "Robot druh-easyedapro:CAP")
+		(at 97.79 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "602a4c43-168a-4cf3-90e9-f135a9947544")
-		(property "Reference" "#PWR046"
-			(at 93.98 137.16 0)
+		(uuid "5fc93be4-fdfd-4591-8c6f-bc1115049bcf")
+		(property "Reference" "C34"
+			(at 100.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 93.98 143.51 0)
+		(property "Value" "220nF"
+			(at 97.79 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 93.98 137.16 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 97.79 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +4501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 137.16 0)
+			(at 97.79 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +4510,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 137.16 0)
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24164199-fefb-45c2-889d-3315fc94049b")
+		)
+		(pin "1"
+			(uuid "77575b2f-ca30-41c6-aba7-01845695e682")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 53.34 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "602a4c43-168a-4cf3-90e9-f135a9947544")
+		(property "Reference" "#PWR046"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +4601,7 @@
 	(symbol
 		(lib_name "Power-VCC_1")
 		(lib_id "Robot druh-easyedapro:Power-VCC")
-		(at 182.88 44.45 0)
+		(at 163.83 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3511,7 +4609,7 @@
 		(dnp no)
 		(uuid "61b6c21c-5097-49f2-8ccb-dc6d76bc5c9c")
 		(property "Reference" "#PWR098"
-			(at 182.88 44.45 0)
+			(at 163.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +4618,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 182.88 39.37 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +4626,7 @@
 			)
 		)
 		(property "Footprint" "Robot druh-easyedapro:"
-			(at 182.88 44.45 0)
+			(at 163.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +4635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 44.45 0)
+			(at 163.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +4644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 44.45 0)
+			(at 163.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +4666,7 @@
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:Ground-GND")
-		(at 59.69 78.74 0)
+		(at 88.9 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3576,7 +4674,7 @@
 		(dnp no)
 		(uuid "6bdf52d0-0047-41a2-8030-35b1481641f6")
 		(property "Reference" "#PWR045"
-			(at 59.69 78.74 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +4683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 85.09 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +4691,7 @@
 			)
 		)
 		(property "Footprint" "Robot druh-easyedapro:"
-			(at 59.69 78.74 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +4700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 78.74 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +4709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 78.74 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,34 +4730,34 @@
 		)
 	)
 	(symbol
-		(lib_name "Power-VCC_1")
-		(lib_id "Robot druh-easyedapro:Power-VCC")
-		(at 63.5 45.72 0)
+		(lib_id "Robot druh-easyedapro:CAP")
+		(at 133.35 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ea978c4-97c7-43b2-9f10-5ad35468937a")
-		(property "Reference" "#PWR081"
-			(at 63.5 45.72 0)
+		(uuid "74bcda66-dc2b-4696-a157-58d206f92585")
+		(property "Reference" "C35"
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "3V3"
-			(at 63.5 40.64 0)
+		(property "Value" "220nF"
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 63.5 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +4766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 45.72 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +4775,210 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 45.72 0)
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8a24b36-ead4-411a-9de0-0e591eb01cdc")
+		)
+		(pin "1"
+			(uuid "95f06f7e-db22-4eca-94f5-0ae7e635aeeb")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 176.53 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77a765b0-bad9-401f-8b2d-a7f03b6d16f8")
+		(property "Reference" "#PWR0105"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abc41fd9-a342-49d5-9f4c-94fc4c9e691e")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:CAP")
+		(at 167.64 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b3b6c8c-7891-439d-a726-fb87381bc1c6")
+		(property "Reference" "C36"
+			(at 170.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220nF"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e254fc65-e934-41ad-8dfb-d4b8f7738310")
+		)
+		(pin "1"
+			(uuid "a2dab1c3-f16f-4f14-abd4-191e3e5869de")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 92.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ea978c4-97c7-43b2-9f10-5ad35468937a")
+		(property "Reference" "#PWR081"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +5234,7 @@
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:74HC165BQ,115")
-		(at 95.25 120.65 0)
+		(at 54.61 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3941,7 +5242,7 @@
 		(dnp no)
 		(uuid "91270de6-a482-44e2-8251-17d0754b12ef")
 		(property "Reference" "IC6"
-			(at 88.9 104.14 0)
+			(at 48.26 49.53 0)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -3950,7 +5251,7 @@
 			)
 		)
 		(property "Value" "74HC165BQ,115"
-			(at 88.9 139.7 0)
+			(at 48.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +5260,7 @@
 			)
 		)
 		(property "Footprint" "easyEDA_footprints:DHVQFN-16_L3.5-W2.5-P0.50-BL-EP"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +5269,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191114/C456131_4958C2CF9552F2ACF56B5EE2B7A2605A.pdf"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +5278,7 @@
 			)
 		)
 		(property "Description" "Function: Output Type: Series:"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +5287,7 @@
 			)
 		)
 		(property "Manufacturer Part" "74HC165BQ,115"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +5296,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia(安世)"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +5305,7 @@
 			)
 		)
 		(property "Supplier Part" "C426699"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +5314,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +5323,7 @@
 			)
 		)
 		(property "LCSC Part Name" "74HC165BQ,115"
-			(at 95.25 120.65 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,33 +5392,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Robot druh-easyedapro:Ground-GND")
-		(at 179.07 77.47 0)
+		(lib_id "Robot druh-easyedapro:CAP")
+		(at 62.23 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ad22f900-53dc-4c89-b435-e190ecae9e45")
-		(property "Reference" "#PWR048"
-			(at 179.07 77.47 0)
+		(uuid "a0bbbd82-2d32-4b76-aab2-0db74f56b443")
+		(property "Reference" "C33"
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 179.07 83.82 0)
+		(property "Value" "220nF"
+			(at 62.23 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Robot druh-easyedapro:"
-			(at 179.07 77.47 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 77.47 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +5437,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 77.47 0)
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdbd89bf-257a-4064-9cc1-96c993079d25")
+		)
+		(pin "1"
+			(uuid "e89008f3-cf34-4140-9d0d-ee7ccb4c7b51")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 160.02 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad22f900-53dc-4c89-b435-e190ecae9e45")
+		(property "Reference" "#PWR048"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,15 +5527,15 @@
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:Ground-GND")
-		(at 120.65 80.01 0)
+		(at 105.41 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b774cd5a-7daa-43bb-baa5-162e556be8ac")
-		(property "Reference" "#PWR047"
-			(at 120.65 80.01 0)
+		(uuid "b72c1275-dbb0-49bb-bf1d-3e27081b4170")
+		(property "Reference" "#PWR0103"
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +5544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 86.36 0)
+			(at 105.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +5552,7 @@
 			)
 		)
 		(property "Footprint" "Robot druh-easyedapro:"
-			(at 120.65 80.01 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +5561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 80.01 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +5570,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 80.01 0)
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "936bc52b-8528-4ea3-9575-5cdbb4cc836b")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 124.46 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b774cd5a-7daa-43bb-baa5-162e556be8ac")
+		(property "Reference" "#PWR047"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,17 +5656,16 @@
 		)
 	)
 	(symbol
-		(lib_name "Power-VCC_1")
-		(lib_id "Robot druh-easyedapro:Power-VCC")
-		(at 97.79 104.14 0)
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 69.85 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bf67a843-0eba-419d-8423-701b6c5c79e6")
-		(property "Reference" "#PWR099"
-			(at 97.79 104.14 0)
+		(uuid "b781a583-b669-4fc7-a00b-a38a6db00cc2")
+		(property "Reference" "#PWR0102"
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,8 +5673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 97.79 99.06 0)
+		(property "Value" "GND"
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +5682,7 @@
 			)
 		)
 		(property "Footprint" "Robot druh-easyedapro:"
-			(at 97.79 104.14 0)
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +5691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 104.14 0)
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +5700,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 104.14 0)
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59b22c75-035d-4348-8715-7fe441d14ce6")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 57.15 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf67a843-0eba-419d-8423-701b6c5c79e6")
+		(property "Reference" "#PWR099"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,17 +5787,16 @@
 		)
 	)
 	(symbol
-		(lib_name "Power-VCC_1")
-		(lib_id "Robot druh-easyedapro:Power-VCC")
-		(at 124.46 46.99 0)
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 140.97 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cff24ca0-ff5d-4797-8fe1-daeb0d992eee")
-		(property "Reference" "#PWR097"
-			(at 124.46 46.99 0)
+		(uuid "ce3f6735-7e55-4c35-a148-29bf51d26649")
+		(property "Reference" "#PWR0104"
+			(at 140.97 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,8 +5804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 124.46 41.91 0)
+		(property "Value" "GND"
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +5813,7 @@
 			)
 		)
 		(property "Footprint" "Robot druh-easyedapro:"
-			(at 124.46 46.99 0)
+			(at 140.97 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +5822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 46.99 0)
+			(at 140.97 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +5831,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 46.99 0)
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c685b798-dc68-478e-af2f-8cd6858c251d")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/923cc6d5-dd44-43d7-8542-ae4854215bdd"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_1")
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 128.27 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cff24ca0-ff5d-4797-8fe1-daeb0d992eee")
+		(property "Reference" "#PWR097"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 128.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
