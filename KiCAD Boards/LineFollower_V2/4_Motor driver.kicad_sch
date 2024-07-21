@@ -5,6 +5,539 @@
 	(uuid "3a8ca538-7c67-4086-89f8-b6c82646dfca")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "M4JCI:DRV8872DDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DRV8872DDAR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X170-9N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/drv8872"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.6A Brushed DC Motor Driver With Fault Reporting (PWM Ctrl) "
+				(at 15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.7"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-DRV8872DDAR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8872DDAR?qs=Fobv33ltQGgHyGKgoxjXAw%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DRV8872DDAR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8872DDAR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "NFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "ISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Robot druh-easyedapro:Ground-GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Robot druh-easyedapro:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ground-GND_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Robot druh-easyedapro:HC-2510-2A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -158,6 +691,1336 @@
 				)
 			)
 		)
+		(symbol "Robot druh-easyedapro:Power-VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Robot druh-easyedapro:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 90.17 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79c88be-accf-43c1-8b00-753ed8ccb99d")
+	)
+	(junction
+		(at 90.17 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c624f5fe-6cae-430c-a67e-82a10f942bf5")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 72.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c04060-e6cb-4f95-9bc6-7325397bcd37")
+	)
+	(wire
+		(pts
+			(xy 54.61 76.2) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db7a334-b5d3-4e6e-a745-71d5272b48f0")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ead5820-5301-4616-9fa9-e6c4ffcededd")
+	)
+	(wire
+		(pts
+			(xy 113.03 116.84) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279f6322-b37b-46cd-af9b-aa343d8afa41")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7a55af-8bf2-4993-8f63-63bcf8fb7127")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37373b52-7958-4e14-b144-4ff52b1861c2")
+	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 106.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378d8c83-a645-4d67-a85e-06935909fec6")
+	)
+	(wire
+		(pts
+			(xy 54.61 73.66) (xy 57.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4011b165-2f80-4ddd-a742-441aa05dfe6d")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7cc924-8a32-4951-ada5-e18e97205ebf")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 54.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a239e3d-769b-4404-b9a3-f3315f3d33b2")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 90.17 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607ef4c3-d8d9-41d5-854c-daa1428937be")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78570972-9199-4c50-96eb-4baf3c52e51c")
+	)
+	(wire
+		(pts
+			(xy 90.17 81.28) (xy 90.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790e9c8a-d65c-4f3f-9e2c-08fb434e03c5")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e629c2e-5c15-4225-8088-d5449fde3080")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fa5ba8-fc0b-4b7a-9b9c-714c15dcf3e0")
+	)
+	(wire
+		(pts
+			(xy 54.61 78.74) (xy 57.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87678c63-df62-4694-b166-cd8fb3bf69f3")
+	)
+	(wire
+		(pts
+			(xy 53.34 114.3) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4d212a-525e-4411-907c-6486df024c04")
+	)
+	(wire
+		(pts
+			(xy 87.63 76.2) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c990331-bc60-4200-b194-899096818917")
+	)
+	(wire
+		(pts
+			(xy 87.63 121.92) (xy 90.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a006c7d0-430c-4c6a-9c19-562d236e3b5c")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7f9aea-7def-4319-94b0-ed663524d53b")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0354ac3-6df9-4b93-96ba-ff822b3934f7")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8634c5-ba5f-4549-b4b9-e728272b2b16")
+	)
+	(wire
+		(pts
+			(xy 53.34 111.76) (xy 53.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28a7d00-ad2b-4f85-8a66-055d89af87c6")
+	)
+	(wire
+		(pts
+			(xy 53.34 116.84) (xy 57.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb6f935-4477-4d45-969d-06928e32af66")
+	)
+	(wire
+		(pts
+			(xy 87.63 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de14466e-44bf-4c34-af91-04081f3c0563")
+	)
+	(wire
+		(pts
+			(xy 87.63 116.84) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51eddd0-abc9-416f-96fb-47f639c3a8b4")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eceb35e1-bda6-4408-bcb5-e11e90978f2d")
+	)
+	(wire
+		(pts
+			(xy 90.17 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac25a9a-9d15-455f-b4ba-6a7c9c2c4b4a")
+	)
+	(wire
+		(pts
+			(xy 53.34 119.38) (xy 57.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb07662a-520e-4eb4-8f2c-df7db0d26676")
+	)
+	(label "IC_13_OUT_1"
+		(at 121.92 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08ecc336-8270-4ed5-a9e9-2bed6d3f3cce")
+	)
+	(label "IC_14_OUT_2"
+		(at 113.03 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09452821-292d-4da9-8d89-23fea86e0126")
+	)
+	(global_label "R_IN_2"
+		(shape input)
+		(at 53.34 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00518e34-16fc-41f0-8290-810f235ec86b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_IN_1"
+		(shape input)
+		(at 53.34 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "271365f8-11fa-474b-ba58-dc83dcc042c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I_SENS_1_IN"
+		(shape output)
+		(at 87.63 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a2b5c16-ae36-4be6-99b0-472f40799cda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1661 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L_IN_1"
+		(shape input)
+		(at 54.61 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38549f57-aeaa-4e26-8872-4f305bdf5f52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.5167 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I_SENS_2_IN"
+		(shape output)
+		(at 90.17 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "563885a1-e80d-4704-adf5-e21d6a437b1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.7061 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I_SENS_2_OUT"
+		(shape input)
+		(at 125.73 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59738fff-fa51-4f43-96bc-c3efacde1dd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5006 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I_SENS_1_OUT"
+		(shape input)
+		(at 123.19 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79029bbf-dbb9-49a9-8e56-136bef26b648")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.9606 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L_IN_2"
+		(shape input)
+		(at 54.61 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "991f7485-9a9d-4a00-a33b-930fa87943d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.5167 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 106.68 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0737927e-1c77-4f20-b5a5-6c52706cf636")
+		(property "Reference" "#PWR0107"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a1ae316-ea70-4004-9066-26c9cb7cedaf")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M4JCI:DRV8872DDAR")
+		(at 57.15 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17500b5b-90e6-4f75-bd3e-6645fa62568a")
+		(property "Reference" "IC13"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8872DDAR"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X170-9N"
+			(at 83.82 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/drv8872"
+			(at 83.82 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6A Brushed DC Motor Driver With Fault Reporting (PWM Ctrl) "
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.7"
+			(at 83.82 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-DRV8872DDAR"
+			(at 83.82 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8872DDAR?qs=Fobv33ltQGgHyGKgoxjXAw%3D%3D"
+			(at 83.82 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 83.82 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8872DDAR"
+			(at 83.82 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9fbecc7-4c2f-4922-8cee-1d207ccd8131")
+		)
+		(pin "4"
+			(uuid "9c14f579-fe38-49c3-a207-c31e97769dcc")
+		)
+		(pin "5"
+			(uuid "a1a114f0-64ad-4a7f-83d8-7be617035160")
+		)
+		(pin "6"
+			(uuid "2e38e5be-54ca-49a5-aab2-403b60ed8154")
+		)
+		(pin "1"
+			(uuid "ca83f643-17b5-4838-a865-cc828bb5809e")
+		)
+		(pin "7"
+			(uuid "5bc2491d-750a-4bf8-b1e2-94bc6d849f9c")
+		)
+		(pin "8"
+			(uuid "4f7be98e-9e01-427c-a197-e8ac4c1814e9")
+		)
+		(pin "9"
+			(uuid "9fa26fac-5f6a-4789-8345-d40a5769da39")
+		)
+		(pin "3"
+			(uuid "7f9ca653-a861-4767-88d4-6b760c730a24")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "IC13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 106.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "259a5e57-4800-4954-a99c-a31971651ff6")
+		(property "Reference" "#PWR0108"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e4b97d-53fb-4274-bbff-6b9e6e11bfcd")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 72.39 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28487e58-4bb0-47ce-a67d-0d9b57157b8a")
+		(property "Reference" "#PWR0110"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4318341-2304-4cdf-a9c8-e0232b22ca14")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 90.17 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "296f0fdb-db30-47c8-bea7-196599a54d25")
+		(property "Reference" "#PWR0113"
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b8b1844-a00d-41a4-8f16-880f5a03a2d7")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 96.52 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "473f0356-4eda-456e-a2bd-1ab7e4c6cdb5")
+		(property "Reference" "#PWR0112"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 98.806 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0665968b-a632-4780-864b-ef2352bb4e1b")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c9e5db7-ffec-42d9-8079-14117dc98328")
+		(property "Reference" "C37"
+			(at 86.106 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 84.582 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 89.2048 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99052a9a-a372-4b7d-8601-d159b7fcdd69")
+		)
+		(pin "2"
+			(uuid "614a3ccb-8c99-42c6-a0f8-cb916d1a56e0")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Power-VCC")
+		(at 96.52 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c2f0090-2183-4a67-a9aa-92b74b96fbfe")
+		(property "Reference" "#PWR0114"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 98.806 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9200b402-ec91-4846-8b6a-0fcce00e4143")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e2cb9c-477c-4027-a5f1-29c6e8ee3a7a")
+		(property "Reference" "C38"
+			(at 86.106 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 84.582 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 89.2048 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a26839cf-2651-4eb3-b3ba-f58ec4179a16")
+		)
+		(pin "2"
+			(uuid "5fccab47-4cb7-4a13-8f76-7a023c83a268")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 72.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85fdbcf7-db6b-4e7b-9ec4-3b18e09c16bb")
+		(property "Reference" "#PWR0109"
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84431a18-3dbe-4166-902c-e98ee8d84aee")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Robot druh-easyedapro:HC-2510-2A")
@@ -169,7 +2032,7 @@
 		(dnp no)
 		(uuid "96ae675e-5811-4e71-9d4c-d891fe90561e")
 		(property "Reference" "CN1"
-			(at 130.81 73.66 0)
+			(at 130.81 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,8 +2137,215 @@
 		)
 	)
 	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 90.17 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b920e3-c000-41f0-9604-dc32bd459268")
+		(property "Reference" "#PWR0111"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3854b273-206a-4ecc-9824-5d9be2cdc6c4")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M4JCI:DRV8872DDAR")
+		(at 57.15 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab905293-869c-447e-a180-070a3746b839")
+		(property "Reference" "IC14"
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8872DDAR"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X170-9N"
+			(at 83.82 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/drv8872"
+			(at 83.82 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6A Brushed DC Motor Driver With Fault Reporting (PWM Ctrl) "
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.7"
+			(at 83.82 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-DRV8872DDAR"
+			(at 83.82 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8872DDAR?qs=Fobv33ltQGgHyGKgoxjXAw%3D%3D"
+			(at 83.82 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 83.82 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8872DDAR"
+			(at 83.82 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7f26716-66af-4e53-93b6-5bcc4f0caef9")
+		)
+		(pin "4"
+			(uuid "7279b43b-da68-464d-9db1-5216afcbe718")
+		)
+		(pin "5"
+			(uuid "87fcd113-268d-4d55-ae2b-a252106040ba")
+		)
+		(pin "6"
+			(uuid "81cf6f9e-4773-4c92-a319-3d83b7e3a85a")
+		)
+		(pin "1"
+			(uuid "208ac89a-004e-4c68-96a9-e39f74af875d")
+		)
+		(pin "7"
+			(uuid "cdc79b95-7dec-46f4-9663-d793557a7490")
+		)
+		(pin "8"
+			(uuid "8c81f8a5-2ec2-4af1-a858-258c63bb59e0")
+		)
+		(pin "9"
+			(uuid "26a5d89b-7215-45ec-bd06-facac1b14462")
+		)
+		(pin "3"
+			(uuid "fca8f916-6f52-4da9-8eac-9cc5abf3ddf8")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "IC14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Robot druh-easyedapro:HC-2510-2A")
-		(at 133.35 92.71 0)
+		(at 133.35 118.11 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -283,7 +2353,7 @@
 		(dnp no)
 		(uuid "b825dfb8-dea9-4a08-b739-a70d78319e37")
 		(property "Reference" "CN2"
-			(at 130.81 88.9 0)
+			(at 130.81 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,7 +2362,7 @@
 			)
 		)
 		(property "Value" "HC-2510-2A"
-			(at 130.81 99.06 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +2371,7 @@
 			)
 		)
 		(property "Footprint" "easyEDA_footprints:CONN-TH_2P-P2.54_HCTL_HC-2510-2A"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +2380,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220311/83CB9A6B67C6DEDDA2AF08A1DCFC516E.pdf"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,7 +2389,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x2P Pitch:2.54mm Mounting Style:Straight Reference Series:- Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating (Max):4A Contact Material:Brass Contact Plating:Tin Operating Temperature Range:-25°C~+85°C"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +2398,7 @@
 			)
 		)
 		(property "Manufacturer Part" "HC-2510-2A"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +2407,7 @@
 			)
 		)
 		(property "Manufacturer" "HCTL(华灿天禄)"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +2416,7 @@
 			)
 		)
 		(property "Supplier Part" "C2982031"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +2425,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +2434,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
-			(at 133.35 92.71 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,6 +2452,136 @@
 			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 53.34 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9826c65-6e41-479f-a84b-07ba13b44df6")
+		(property "Reference" "#PWR0116"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7306880-03fa-4c4d-a2e2-df8059de3de3")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robot druh-easyedapro:Ground-GND")
+		(at 54.61 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f77ee82a-e7a3-44a6-b979-69b1101a03d7")
+		(property "Reference" "#PWR0115"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robot druh-easyedapro:"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1c5b478-3e62-4dc4-b32c-542b56cc82c3")
+		)
+		(instances
+			(project "LineFollower_V2"
+				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/0069e570-555f-4d69-a82e-b37781b288d4"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

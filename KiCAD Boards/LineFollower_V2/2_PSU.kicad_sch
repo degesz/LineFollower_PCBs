@@ -7607,7 +7607,7 @@
 			(uuid "07b8474c-2e24-4c7b-abd4-cdc2514163b5")
 		)
 		(instances
-			(project ""
+			(project "LineFollower_V2"
 				(path "/76a20473-53d0-433c-9f05-17cd0a98178a/5d9dbd08-e291-4910-b472-c97ee13cd6ca"
 					(reference "#PWR041")
 					(unit 1)
