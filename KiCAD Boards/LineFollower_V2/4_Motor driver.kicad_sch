@@ -802,6 +802,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177f822e-5684-47d0-9396-ea8416809f25")
+	)
+	(wire
+		(pts
 			(xy 72.39 134.62) (xy 72.39 137.16)
 		)
 		(stroke
@@ -822,26 +832,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 116.84) (xy 113.03 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ead5820-5301-4616-9fa9-e6c4ffcededd")
-	)
-	(wire
-		(pts
-			(xy 113.03 116.84) (xy 113.03 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279f6322-b37b-46cd-af9b-aa343d8afa41")
-	)
-	(wire
-		(pts
 			(xy 125.73 76.2) (xy 125.73 73.66)
 		)
 		(stroke
@@ -849,6 +839,16 @@
 			(type default)
 		)
 		(uuid "2d7a55af-8bf2-4993-8f63-63bcf8fb7127")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e410ce-4c2e-4b17-896f-d6afb7071e17")
 	)
 	(wire
 		(pts
@@ -892,6 +892,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ddd424-a9a1-4205-95ed-6f6e94d65045")
+	)
+	(wire
+		(pts
 			(xy 54.61 71.12) (xy 54.61 73.66)
 		)
 		(stroke
@@ -909,6 +919,16 @@
 			(type default)
 		)
 		(uuid "607ef4c3-d8d9-41d5-854c-daa1428937be")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725dd473-ce62-47e5-b695-640b6be19088")
 	)
 	(wire
 		(pts
@@ -939,16 +959,6 @@
 			(type default)
 		)
 		(uuid "7e629c2e-5c15-4225-8088-d5449fde3080")
-	)
-	(wire
-		(pts
-			(xy 113.03 114.3) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86fa5ba8-fc0b-4b7a-9b9c-714c15dcf3e0")
 	)
 	(wire
 		(pts
@@ -1042,13 +1052,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 90.17 119.38)
+			(xy 110.49 116.84) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de14466e-44bf-4c34-af91-04081f3c0563")
+		(uuid "e23772d0-edfe-4a44-847a-5d681d80b2b6")
 	)
 	(wire
 		(pts
@@ -1059,16 +1069,6 @@
 			(type default)
 		)
 		(uuid "e51eddd0-abc9-416f-96fb-47f639c3a8b4")
-	)
-	(wire
-		(pts
-			(xy 125.73 119.38) (xy 128.27 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eceb35e1-bda6-4408-bcb5-e11e90978f2d")
 	)
 	(wire
 		(pts
@@ -1101,16 +1101,16 @@
 		)
 		(uuid "08ecc336-8270-4ed5-a9e9-2bed6d3f3cce")
 	)
-	(label "IC_14_OUT_2"
-		(at 113.03 114.3 180)
+	(label "IC_14_OUT"
+		(at 110.49 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "09452821-292d-4da9-8d89-23fea86e0126")
+		(uuid "fa8ed623-9bbb-4b59-9c98-0b5f83c06c46")
 	)
 	(global_label "R_IN_2"
 		(shape input)
@@ -2247,7 +2247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.6A Brushed DC Motor Driver With Fault Reporting (PWM Ctrl) "
+		(property "Description" "3.6A Brushed DC Motor Driver With Fault Reporting (PWM Ctrl)"
 			(at 72.39 104.14 0)
 			(effects
 				(font
@@ -2345,7 +2345,6 @@
 	(symbol
 		(lib_id "Robot druh-easyedapro:HC-2510-2A")
 		(at 133.35 118.11 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2353,7 +2352,7 @@
 		(dnp no)
 		(uuid "b825dfb8-dea9-4a08-b739-a70d78319e37")
 		(property "Reference" "CN2"
-			(at 130.81 122.682 0)
+			(at 130.81 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2361,7 @@
 			)
 		)
 		(property "Value" "HC-2510-2A"
-			(at 130.81 111.76 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

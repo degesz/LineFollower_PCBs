@@ -1,0 +1,19 @@
+07-18 15:49:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 647:Plugin executed on: 'win32'
+07-18 15:49:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 648:Plugin executed with python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
+07-18 15:49:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 649:KiCad build version: 8.0.4
+07-18 15:49:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 650:Plugin version: 3.0.0
+07-18 15:49:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 651:Frame repr: <wx._core.Frame object at 0x000001FCDCC87D90>
+07-18 15:49:06 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+07-18 15:49:13 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 830:Reference designator is: LED
+07-18 15:49:13 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 831:Reference number is: 8
+07-18 15:49:13 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 863:Sorted and filtered list:
+['LED1', 'LED2', 'LED3', 'LED4', 'LED5', 'LED6', 'LED7', 'LED8', 'LED9', 'LED10', 'LED11', 'LED12']
+07-18 15:49:13 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 359:wx.Colour(240, 240, 240, 255)
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 490:'10'
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 536:Preparing config for reference linear
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 556:Saving config file
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 558:Saved the config file
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 901:Footprints to place:
+['LED1', 'LED2', 'LED3', 'LED4', 'LED5', 'LED6', 'LED7', 'LED8', 'LED9', 'LED10', 'LED11', 'LED12']
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 367:Starting placing with linear layout
+07-18 15:49:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 942:Placing complete
